@@ -17,30 +17,26 @@ hr{
 }
 
 .inline{
+	display: inline;
 	float: left;
-	padding-top: 40px;
-	padding-right: 20px;
-    width: 30%;
-}
-
-.gallery{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: white;
-	margin: 0 auto;
-	width: 95%;
-	max-width: 650px;
-}
-
-.menu{
-	word-spacing: 20px;
-	text-align: center;
-	font-weight: bold;
+    width: 125px;
+	padding-top: 20px
 }
 
 .headline{
     text-align: center;
     line-height: 2em;
+}
+
+.project-item{
+	display: flex;
+	align-items: start;
+	min-height: 125px;
+	padding-right: 10px;
+}
+
+.project-item-text{
+	display: block;
 }
 
 .image-link{
@@ -49,6 +45,16 @@ hr{
 	margin: 0 auto;
 	width: 90%;
 	max-width: 600px;
+}
+
+.image-text{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 600px;
+	font-size: 14px;
 }
 
 p {
@@ -71,4 +77,12 @@ h3{
     font-weight: 400;
     font-style: italic;
     text-align: center;
+}
+
+h4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: bold;
+    text-align: left;
 }
