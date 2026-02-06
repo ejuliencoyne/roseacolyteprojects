@@ -45,6 +45,11 @@ div{
 	width: 50%;
 }
 
+.two-images{
+	display:inline;
+	width: 45%;
+}
+
 .right-link{
 	text-align: right;
 	padding-right: 10%;
